@@ -96,7 +96,7 @@
     
     pCodecCtx->qmin = 10;
     pCodecCtx->qmax = 51;
-    
+    pCodecCtx->flags = CODEC_FLAG_GLOBAL_HEADER;
     pCodecCtx->max_b_frames =3;
     
     AVDictionary *param = 0;
@@ -122,6 +122,10 @@
     }
     
     pFrame = av_frame_alloc();
+    pFrame->format = pCodecCtx->pix_fmt;
+    pFrame->width = pCodecCtx->width;
+    pFrame->height = pCodecCtx->height;
+    
     picture_size = avpicture_get_size(pCodecCtx->pix_fmt, pCodecCtx->width, pCodecCtx->height);
     picture_buf = (uint8_t *)av_malloc(picture_size);
     avpicture_fill((AVPicture *)pFrame, picture_buf, pCodecCtx->pix_fmt, pCodecCtx->width, pCodecCtx->height);
