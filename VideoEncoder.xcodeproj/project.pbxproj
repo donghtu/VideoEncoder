@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		372D0B532239F17F00B3152C /* WechatIMG460.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 372D0B522239F17E00B3152C /* WechatIMG460.jpeg */; };
 		372D549122379D770080470E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 372D549022379D770080470E /* AppDelegate.m */; };
 		372D549422379D770080470E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 372D549322379D770080470E /* ViewController.m */; };
 		372D549722379D770080470E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372D549522379D770080470E /* Main.storyboard */; };
@@ -29,6 +30,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		372D0B522239F17E00B3152C /* WechatIMG460.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WechatIMG460.jpeg; sourceTree = "<group>"; };
 		372D548C22379D770080470E /* VideoEncoder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoEncoder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		372D548F22379D770080470E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		372D549022379D770080470E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 				372D549022379D770080470E /* AppDelegate.m */,
 				372D549222379D770080470E /* ViewController.h */,
 				372D549322379D770080470E /* ViewController.m */,
+				372D0B522239F17E00B3152C /* WechatIMG460.jpeg */,
 				372DF7772238F2270051C55B /* ds.yuv */,
 				372D549522379D770080470E /* Main.storyboard */,
 				372D549822379D780080470E /* Assets.xcassets */,
@@ -436,6 +439,7 @@
 				372D549C22379D780080470E /* LaunchScreen.storyboard in Resources */,
 				372D549922379D780080470E /* Assets.xcassets in Resources */,
 				372D549722379D770080470E /* Main.storyboard in Resources */,
+				372D0B532239F17F00B3152C /* WechatIMG460.jpeg in Resources */,
 				372DF7782238F2270051C55B /* ds.yuv in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
